@@ -4,8 +4,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-size: 14px; /* Standart wäre 16px, ohne Einstellung*/
+    color: hsl(228, 12%, 48%);
    
 }
 
@@ -28,7 +29,7 @@ img
 .design{
     position: absolute;
     z-index: -1;
-    opacity: 70%;
+    opacity: 0.3;
     width: 375px;
 }
 
@@ -45,4 +46,9 @@ img
 
 h2{
     font-family: "Fraunces", sans-serif;
+}
+
+.product-type{
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
