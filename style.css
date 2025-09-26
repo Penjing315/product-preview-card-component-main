@@ -81,6 +81,14 @@ img {
   font-weight: 600;
 }
 
+.card-btn:hover {
+  cursor: pointer;
+}
+
+.card-btn:active {
+  background-color: hsl(158, 42%, 18%);
+}
+
 .product-description {
   line-height: 1.5;
   font-weight: 500;
