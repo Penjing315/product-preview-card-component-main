@@ -18,7 +18,7 @@ body {
 }
 /* responisve Image */
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .design {
@@ -43,7 +43,7 @@ img {
 }
 
 .product-name {
-  font-family: "Fraunces", sans-serif;
+  font-family: "Fraunces", serif;
   color: black;
   font-size: 2.3em;
   line-height: 0.9;
@@ -72,4 +72,16 @@ img {
   background-color: hsl(158, 36%, 37%);
   border: none;
   color: white;
+  height: 3em;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  font-weight: 600;
+}
+
+.product-description {
+  line-height: 1.5;
+  font-weight: 500;
 }
